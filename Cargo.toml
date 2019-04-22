@@ -1,0 +1,10 @@
+[package]
+name = "cruster"
+version = "0.1.0"
+authors = ["King Claudy <clocloranely@hotmail.fr>"]
+edition = "2018"
+
+[dependencies]
+image = '*'
+rand = '*'
+structopt = '*'

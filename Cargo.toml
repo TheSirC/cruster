@@ -1,10 +1,10 @@
 [package]
-name = "cruster"
-version = "0.1.0"
 authors = ["King Claudy <clocloranely@hotmail.fr>"]
 edition = "2018"
-
+name = "cruster"
+version = "0.1.0"
 [dependencies]
-image = '*'
-rand = '*'
-structopt = '*'
+image = "0.21.1"
+itertools = "0.8.0"
+rand = "*"
+structopt = "0.2.15"

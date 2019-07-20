@@ -1,8 +1,8 @@
 # Cruster
-An image rustifier - mainly a parallel implementation of [ corruster ]()
+An image rustifier - mainly a refactored implementation of [ corruster ](https://gitlab.com/kryha/corruster)
 
 ## Usage
-	crst -i image -o output/path/
+	cruster  input/path/image output/path/
 
 ## Format supported
-This utility relies heavily on the [ `image` crate ](https://crates.io/image) and thus provides support only for the formats that `image` supports. For further details : see [ here ]().
+This utility relies heavily on the [ `image` crate ](https://crates.io/image) and thus provides support only for the formats that `image` supports.
